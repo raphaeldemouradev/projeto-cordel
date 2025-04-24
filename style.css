@@ -22,8 +22,6 @@ html, body {
     font-family: var(--font1);
 }
 
-/* cabeça */
-
 header {
     background-color: black;
     color: white;
@@ -87,15 +85,13 @@ section.imagem > p {
 }
 
 #img01 {
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('./imagens/background001.jpg');
     background-position: right center;
 }
 
 #img02 {
-    background-image: url('../imagens/background002.jpg');
+    background-image: url('./imagens/background002.jpg');
 }
-
-/* footer */
 
 footer > p {
     padding: 0px;
